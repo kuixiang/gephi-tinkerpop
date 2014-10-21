@@ -3,6 +3,11 @@
 keystore.ks
 /target/
 /modules/AlgorithmsPlugin/target/
+/modules/TinkerpopFiltersAPI/target/
+/modules/TinkerpopFiltersImpl/target/
+/modules/TinkerpopFiltersPlugin/target/
+/modules/TinkerpopFiltersPluginUI/target/
+/modules/TinkerpopWrapper/target/
 /modules/AttributeColumnPropertyEditor/target/
 /modules/AttributesAPI/target/
 /modules/AttributesImpl/target/
@@ -13,8 +18,11 @@ keystore.ks
 /modules/DataLaboratoryPlugin/target/
 /modules/DesktopClustering/target/
 /modules/DBDrivers/target/
-/modules/DesktopContext/target/
+/modules/DesktopTinkerpopFilters/target/
 /modules/DesktopBranding/target/
+/modules/DesktopClustering/target/
+/modules/DesktopConnection/target/
+/modules/DesktopContext/target/
 /modules/DesktopDataLaboratory/target/
 /modules/DesktopFilters/target/
 /modules/DesktopProgress/target/

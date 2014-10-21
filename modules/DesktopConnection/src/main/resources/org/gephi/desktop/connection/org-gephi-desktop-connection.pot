@@ -1,0 +1,70 @@
+# Translation file for Gephi.
+# Copyright (C) 2011 Gephi contributors.
+# This file is distributed under the same license as the Gephi package.
+# Gephi Team <gephi.team@lists.launchpad.net>, 2011.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Gephi 0.8\n"
+"Report-Msgid-Bugs-To: gephi.team@lists.launchpad.net\n"
+"POT-Creation-Date: 2011-08-05 14:52+0200\n"
+"PO-Revision-Date: 2011-08-05 14:52+0200\n"
+"Last-Translator: Mathieu Bastian <gephi.team@lists.launchpad.net>\n"
+"Language-Team: English <https://launchpad.net/~gephi.team>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+msgid "CTL_ConnectToStream"
+msgstr "Connect To Graph Database"
+
+msgid "CTL_ConnectionAction"
+msgstr "Connect To Graph Database"
+
+msgid "CTL_ConnectionTopComponent"
+msgstr "Connect to Tinkerpop"
+
+msgid "HINT_ConnectionTopComponent"
+msgstr "Connect to Tinkerpop"
+
+msgid "OpenIDE-Module-Display-Category"
+msgstr "Gephi UI"
+
+msgid "OpenIDE-Module-Long-Description"
+msgstr "Desktop Connection to Graph Database"
+
+msgid "OpenIDE-Module-Short-Description"
+msgstr "Desktop Connection"
+
+msgid "OpenIDE-Module-Name"
+msgstr "Desktop Connection"
+
+msgid "ConnectionTopComponent1.clientLabel.text"
+msgstr "Graph Database"
+
+msgid "ConnectionTopComponent.addButton.text"
+msgstr ""
+
+msgid "ConnectionTopComponent.removeButton.text"
+msgstr ""
+
+msgid "ConnectionTopComponent.addButton.toolTipText"
+msgstr "Connect to Tinkerpop"
+
+msgid "ConnectionTopComponent.removeButton.toolTipText"
+msgstr "Disconnect from Graph Database"
+
+msgid "ConnectionTopComponent.removeButton.toolTipText"
+msgstr "Disconnect from Graph Database"
+
+msgid "ConnectionClientPanel.graphNameLabel.text"
+msgstr "Graph Name:"
+
+msgid "ConnectionClientPanel.streamUrlLabel.text"
+msgstr "Database URL:"
+
+msgid "ConnectionClientPanel.sourceURL.text"
+msgstr ""
+
+msgid "sConnectionClientPanel.graphName.text"
+msgstr ""

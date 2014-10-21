@@ -115,14 +115,17 @@ public class GraphFactoryImpl implements GraphFactory {
     }
 
     public AbstractNode newNode(String id, int viewId) {
-        AbstractNode node = new AbstractNode(idGen.newNodeId(), viewId, 0, 0, 0, null);  //with wiew = 0
+
+        int nodeId;
+        if (id != null) {
+            nodeId = Integer.parseInt(id);
+        }  else{
+            nodeId = idGen.newNodeId();
+        }
+        AbstractNode node = new AbstractNode(nodeId, viewId, 0, 0, 0, null);  //with wiew = 0
         node.getNodeData().setAttributes(newNodeAttributes(node.getNodeData()));
         node.getNodeData().setTextData(newTextData());
-        if (id != null) {
-            node.getNodeData().setId(id);
-        } else {
-            node.getNodeData().setId("" + node.getId());
-        }
+        node.getNodeData().setId(Integer.toString(nodeId));
         return node;
     }
 

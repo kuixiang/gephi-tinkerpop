@@ -336,13 +336,15 @@ public class GraphStructure {
         }
 
         public synchronized void removeEdge(AbstractEdge edge) {
-            EdgeCounter edgeCounter = edgesRefCount.get(edge.getId());
-            int count = edgeCounter.decAndGet();
-            if (count == 0) {
-                edgesRefCount.remove(edge.getId());
-                String id = edge.getEdgeData().getId();
-                if (id != null) {
-                    edgesMap.remove(id);
+            if(edgesRefCount.containsKey(edge.getId())){
+                EdgeCounter edgeCounter = edgesRefCount.get(edge.getId());
+                int count = edgeCounter.decAndGet();
+                if (count == 0) {
+                    edgesRefCount.remove(edge.getId());
+                    String id = edge.getEdgeData().getId();
+                    if (id != null) {
+                        edgesMap.remove(id);
+                    }
                 }
             }
         }
