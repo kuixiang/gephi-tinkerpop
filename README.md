@@ -103,12 +103,10 @@ queries, edge-oriented Gremlin queries, and Ego network query.
 ## Gephi-Tinkerpop Tutorial
 
 ### Connect to Graph Database
-Before submitting queries to Tinkerpop Rexster server. The first step is to edit the 
-    configuration file $GEPHI_TARGET/etc/gephi-tinkerpop.json as mentioned in above section. The 
-    second step is to select graph from configuration panel. Please see below video on how to do 
-    the second step.
-    
-    [![Connect to Graph Database](http://img.youtube.com/vi/Jz0t7wue5qc/0.jpg)](https://www.youtube.com/watch?v=Jz0t7wue5qc)
+Before submitting queries to Tinkerpop Rexster server. The first step is to edit the configuration file $GEPHI_TARGET/etc/gephi-tinkerpop.json as mentioned in above section. The second step is to select graph from configuration panel. Please see below video on how to do the second step.
+
+[![Connect to Graph Database](http://img.youtube.com/vi/Jz0t7wue5qc/0.jpg)](https://www.youtube.com/watch?v=Jz0t7wue5qc)
+   
    
 ### Vertex-Oriented Query
 Vertex-Oriented Query are for users to submit abitraty/customerized Vertex related queries. There are three parameters for Vertex-Oriented Queries. 
@@ -139,8 +137,8 @@ Vertex-Oriented Query are for users to submit abitraty/customerized Vertex relat
          
     Please see below video on how to submit Vertex-Oriented Query. The Gremlin Query in the 
     example is to get the first 500 vertices from a graph named "MovieLens".   
- 
-    [![Connect to Graph Database](http://img.youtube.com/vi/juRIJxBAXVI/0.jpg)](https://www.youtube.com/watch?v=juRIJxBAXVI)
+
+[![Vertex-Oriented Query](http://img.youtube.com/vi/juRIJxBAXVI/0.jpg)](https://www.youtube.com/watch?v=juRIJxBAXVI)
    
 ### Edge-Oriented Query
    Edge-Oriented Query are for users to submit abitraty/customerized Edge related queries. There 
@@ -167,7 +165,7 @@ Vertex-Oriented Query are for users to submit abitraty/customerized Vertex relat
     example is to get the 1000 edges with index in range of [1..1000] from a graph named 
     "MovieLens".
     
-    [![Connect to Graph Database](http://img.youtube.com/vi/7a8wMweMq3I/0.jpg)](https://www.youtube.com/watch?v=7a8wMweMq3I)
+[![Edge-Oriented Query](http://img.youtube.com/vi/7a8wMweMq3I/0.jpg)](https://www.youtube.com/watch?v=7a8wMweMq3I)
  
 ### Ego-Network Query
    Ego-Network Query is to firstly find a user interested vertex, 
@@ -209,7 +207,7 @@ Vertex-Oriented Query are for users to submit abitraty/customerized Vertex relat
      this vertex. The maximum number of vertices to show is 3600, with 33%, 33%, 
      and 34% of vertices shown at level 1 to 3, respectively.
      
-     [![Connect to Graph Database](http://img.youtube.com/vi/At7vDTUFFW0/0.jpg)](https://www.youtube.com/watch?v=At7vDTUFFW0)
+[![Ego-Network Query](http://img.youtube.com/vi/At7vDTUFFW0/0.jpg)](https://www.youtube.com/watch?v=At7vDTUFFW0)
   
 ### Nested Queries
   
@@ -229,14 +227,14 @@ Vertex-Oriented Query are for users to submit abitraty/customerized Vertex relat
    
    - find the 3-level Ego Network of "Toy Story (1995)", with maximally 3600 vertices output
   
-  [![Connect to Graph Database](http://img.youtube.com/vi/5fPtZJqpfjA/0.jpg)](https://www.youtube.com/watch?v=5fPtZJqpfjA)
+[![Nested Query](http://img.youtube.com/vi/5fPtZJqpfjA/0.jpg)](https://www.youtube.com/watch?v=5fPtZJqpfjA)
   
   
 ### Query Example
 
  Please see the result of an example Vertex-Oriented Query as follows. It is to firstly find for users who rated "Toy Story (1995)" as score 5, what are other movies they also rated score 5. Then output the top 30 such movies. Movies are colored by their genre.
   
- ![Vertex Query Example](./modules/DesktopConnection/src/main/resources/org/gephi/desktop/connection/resources/Query_Example.png?raw=true "Vertex Query Example")
+![Vertex Query Example](./modules/DesktopConnection/src/main/resources/org/gephi/desktop/connection/resources/Query_Example.png?raw=true "Vertex Query Example")
 
   
 ### Gephi Tutorial
